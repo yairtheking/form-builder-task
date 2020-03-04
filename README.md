@@ -2,6 +2,8 @@
 Attached is the following design and architecture
 
 
+Explanation: user chooses types, a name and a label, adds the fields and submits data object(json file to server)
+then the server responds 200, signifying ok
 
 BUILDER
 
