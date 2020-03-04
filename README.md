@@ -4,6 +4,8 @@ Attached is the following design and architecture
 
 Explanation: user chooses types, a name and a label, adds the fields and submits data object(json file to server)
 then the server responds 200, signifying ok
+We create two tables in the database one is for the submissions designated by a specified id and another table contains the form records while each record contains that particular id.
+For each submission of a certain a new record of the form appears in the forms list page.
 
 BUILDER
 
