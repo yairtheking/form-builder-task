@@ -1,8 +1,7 @@
 
 Attached is the following design and architecture
-A user chooses a type, a name and a label and adds each field with a button, at the end of the a page appears a button that submits the fields and sends the data as a JSON file to the database.
-Two tables are created in the database: one for the records the were newly created and a specified id attached to them and another is a table for all the submisions whie each submmission has that same id.
-The data is then posted from the backend to the forms list page.
+
+Explanation: user chooses types, a name and a label, adds the fields and submits data object(json file to server) then the server responds 200, signifying ok We create two tables in the database one is for the submissions designated by a specified id and another table contains the form records while each record contains that particular id. For each submission of a certain a new record of the form appears in the forms list page.
 
 
 BUILDER
